@@ -121,8 +121,7 @@ const QuentinhaApp = () => {
 Olá! Gostaria de fazer os seguintes pedidos:
 
 ${orderMessages.join('\n\n')}
-Nome: ${name}
-Endereço: ${rua}, ${bairro}
+
 
 Total: R$ ${orders.length * 15},00
     `);
