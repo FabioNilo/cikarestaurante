@@ -110,7 +110,8 @@ const QuentinhaApp = () => {
 
   const handleSubmitOrders = () => {
     const orderMessages = orders.map((order, index) => `
-  Pedido ${index + 1}:
+  
+    Pedido ${index + 1}:
   - Acompanhamentos: ${order.acompanhamentos.join(', ')}
   - Proteína: ${order.proteina}
   - Salada: ${order.salada}
