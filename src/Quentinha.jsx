@@ -1,6 +1,6 @@
 
 import  { useState } from 'react';
-import logo from './cika.avif';
+import logo from './cika.png';
 
 const QuentinhaApp = () => {
   const [selectedItems, setSelectedItems] = useState({
